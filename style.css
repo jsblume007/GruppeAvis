@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body {
+    /* Vår navbar har position fixed. Da må vi ha litt 
+       margin på toppen for å ikke bli liggende "bak" den */
+    margin-top: 65px;
+}
+
+nav {
+    background-color: rgb(171, 95, 95);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav a,
+nav .dropbtn {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: rgb(171, 95, 95);
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: rgb(171, 95, 95);
+}
+
+.dropdown-content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+nav .dropbtn:hover {
+    background-color: #ffffff;
+    color: rgb(171, 95, 95);
+}
