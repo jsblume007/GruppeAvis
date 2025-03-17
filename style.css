@@ -8,13 +8,14 @@ img{
 }
 :root {
     --tekst: #1a1a1a; /* Mørk grå for tekst */
-    --overskrift: #b22222; /* Rød for aksenter, titler */
+    --overskrift: #b12121; /* Rød for aksenter, titler */
     --lysBakgrunn: #f5f5f5; /* Lys bakgrunn */
     --rammer: #ccc; /* Lys grå for linjer og rammer */
     --nav: rgb(171, 95, 95);
+    --article: antiquewhite;
   
     --avisfont: 'Merriweather', serif; /* Klassisk avisfont */
-    --brødtekst: 'Lora', serif; /* Lettlest brødtekst */
+    --brodtekst: 'Lora', serif; /* Lettlest brødtekst */
   }
 body {
     /* Vår navbar har position fixed. Da må vi ha litt 
@@ -31,6 +32,7 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
+    
 }
 
 nav a,
@@ -71,9 +73,10 @@ nav .dropbtn:hover {
     
 }
 article{
-    background-color: antiquewhite;
+    background-color: var(--article);
     grid-column: span 3;
     min-height: 150px;
+    font-family: var(--brodtekst);
 }
 article.stor{
     grid-column: span 6;
