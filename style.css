@@ -10,6 +10,7 @@ body {
     /* Vår navbar har position fixed. Da må vi ha litt 
        margin på toppen for å ikke bli liggende "bak" den */
     margin-top: 65px;
+    
 }
 
 nav {
@@ -50,4 +51,24 @@ nav a:hover {
 nav .dropbtn:hover {
     background-color: #ffffff;
     color: rgb(171, 95, 95);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 3px;
+    max-width: 900px;
+    margin: auto;
+    
+}
+article{
+    background-color: antiquewhite;
+    grid-column: span 3;
+    min-height: 150px;
+}
+article.stor{
+    grid-column: span 6;
+}
+article.xstor{
+    grid-column: span 12;
 }
