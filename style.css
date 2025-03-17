@@ -15,7 +15,7 @@ img{
     --article: antiquewhite;
   
     --avisfont: 'Merriweather', serif; /* Klassisk avisfont */
-    --brødtekst: 'Lora', serif; /* Lettlest brødtekst */
+    --brodtekst: 'Lora', serif; /* Lettlest brødtekst */
   }
 body {
     /* Vår navbar har position fixed. Da må vi ha litt 
@@ -76,7 +76,7 @@ article{
     background-color: var(--article);
     grid-column: span 3;
     min-height: 150px;
-    font-family: var(--brødtekst);
+    font-family: var(--brodtekst);
 }
 article.stor{
     grid-column: span 6;
