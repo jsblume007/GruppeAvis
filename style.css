@@ -6,6 +6,16 @@
 img{
     width: 100%;
 }
+:root {
+    --tekst: #1a1a1a; /* Mørk grå for tekst */
+    --overskrift: #b22222; /* Rød for aksenter, titler */
+    --lysBakgrunn: #f5f5f5; /* Lys bakgrunn */
+    --rammer: #ccc; /* Lys grå for linjer og rammer */
+    --nav: rgb(171, 95, 95);
+  
+    --avisfont: 'Merriweather', serif; /* Klassisk avisfont */
+    --brødtekst: 'Lora', serif; /* Lettlest brødtekst */
+  }
 body {
     /* Vår navbar har position fixed. Da må vi ha litt 
        margin på toppen for å ikke bli liggende "bak" den */
@@ -14,7 +24,7 @@ body {
 }
 
 nav {
-    background-color: rgb(171, 95, 95);
+    background-color: var(--nav);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,10 +40,9 @@ nav .dropbtn {
     padding: 20px;
     font-size: 17px;
     border-radius: 5px;
-    background-color: rgb(171, 95, 95);
+    background-color: var(--nav);
     border: none;
-    font-family: 'Courier New', Courier, monospace;
-
+    font-family: var(--avisfont);
 }
 
 nav a:hover {
@@ -50,7 +59,7 @@ nav a:hover {
 
 nav .dropbtn:hover {
     background-color: #ffffff;
-    color: rgb(171, 95, 95);
+    color: var(--nav);
 }
 
 .container{
