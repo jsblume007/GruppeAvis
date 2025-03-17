@@ -6,3 +6,5 @@ Gruppemedlemmer:
 - Jonas
 - Maren 
 - Natacha
+
+<a href="https://itavisen.no/">IT nettside</a>
