@@ -72,3 +72,8 @@ article.stor{
 article.xstor{
     grid-column: span 12;
 }
+
+.cyber-container{
+    display: grid;
+    grid-template-columns: 3fr;
+}
