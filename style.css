@@ -130,7 +130,9 @@ article.xstor{
     margin: 0 auto 20px;
 }
 
-
+article.news-text {
+    background-color: white;
+}
 
 article::first-letter{
     font-size: 3em;
