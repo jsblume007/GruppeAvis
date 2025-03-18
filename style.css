@@ -162,13 +162,31 @@ figcaption {
 
 h3 {
     font-family: 'Georgia', serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 400;
     color: black;
     text-align: left;
     max-width: 750px;
     margin: 0 auto 20px;
-    line-height: 1.2;
+    line-height: 1.8;
     margin-bottom: 0px;
     ;
+}
+
+.news-text li{
+    font-family: var(--brødtekst);
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: left;
+    color: #333;
+    max-width: 750px;
+    margin: 0 auto 20px;
+}
+
+.liten{
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    display: flex;
+
 }
