@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home <i class="fa-solid fa-house"></i></a>
+        <a href="news.html">News <i class="fa-solid fa-newspaper"></i></a>
+
+
+        <div class="dropdown">
+            <button onclick="klikk()" class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </nav>
+    <figure>
+        <img src="./Bilder/kontor.png" alt="kontor">
+        <figcaption>Oracle AI Centre of Excellence bygger på Oracle sine partnerskap med myndigheter og virksomheter i
+            Sørøst-Asia. Foto: JHVEPhoto/Shutterstock.</figcaption>
+    </figure>
+    <main>
+        <div class="article-hero">
+
+            <h1>Hvordan Oracle bruker AI for å bekjempe økonomisk kriminalitet </h1>
+            <h2>Teknologigiganten bruker kunstig intelligens for å avdekke falske transaksjoner og hjelpe bankene med høye kostnader og varslingsutmattelse.</h2>
+        </div>
+        <article class="news-text">
+            <p>Oracle bruker kunstig intelligens (AI) for å bekjempe økonomisk kriminalitet og løse vedvarende problemer
+                med falske positive varsler og høye etterforskningskostnader som plager finansinstitusjoner.</p>
+            <p>I et intervju med Computer Weekly under Oracle CloudWorld Tour i Singapore uttalte Sonny Singh,
+                konserndirektør og daglig leder for Oracle Financial Services, at tradisjonelle regelbaserte metoder for
+                å oppdage økonomisk kriminalitet ofte skaper en flom av varsler, hvor “90 % av varslene som genereres,
+                typisk er falske positive.”</p>
+            <p>"Tenk deg at du jobber i en bransje der 90 % av arbeidet du gjør, er bortkastet tid," sa Singh og
+                understreket alvoret i problemet. "Større banker kan bruke mellom 600 millioner og 1 milliard dollar på
+                ressurskostnader knyttet til disse etterforskningene."
+
+            </p>
+            <p>Oracle takler problemet med AI på to måter: ved å prioritere varsler for etterforskere av økonomisk
+                kriminalitet og ved å automatisere etterforskningsprosesser, for eksempel innsamling og berikelse av
+                data fra ulike kilder.</p>
+            <p>"AI kan hjelpe deg med å optimalisere hvilke varsler som faktisk bør følges opp," sa Singh. Ved å bruke
+                AI-modeller og generativ AI kan varsler med høyere sannsynlighet for å indikere kriminell aktivitet
+                prioriteres, slik at etterforskere kan fokusere innsatsen sin mer effektivt. </p>
+            <p>For å automatisere etterforskningsprosesser har Oracle nylig introdusert agentbaserte AI-funksjoner i sin
+                Investigation Hub-tjeneste. Denne løsningen er utviklet for å identifisere nøkkelinnsikt, samle inn
+                bevis og generere varslingsnarrativer, slik at etterforskere får en tydelig oversikt over de involverte
+                enhetene og transaksjonene.</p>
+            <p>For å oppnå dette bruker Oracle grafteknologi til å spore lagdelte transaksjoner, en vanlig metode som
+                hvitvaskere bruker for å skjule opprinnelsen og bevegelsene til midler. Ved å visualisere pengestrømmen
+                kan etterforskere lettere identifisere mistenkelige mønstre og nettverk.</p>
+            <p>Singh forklarte at dette gir etterforskere muligheten til å analysere "varsler av høyere kvalitet som har
+                større sannsynlighet for å reflektere økonomisk kriminalitet" og samtidig utstyre dem med "mye bedre
+                verktøy for å undersøke og avgjøre om saken bør rapporteres til myndighetene."</p>
+            <p>"Og når du rapporterer til myndighetene, må du fylle ut rapporter. Generativ AI kan hjelpe med å
+                gjennomgå alle data, identifisere relevante elementer og automatisk generere disse rapportene, samtidig
+                som det fortsatt er menneskelig kontroll i siste ledd," la han til.</p>
+            <p>Når det gjelder bekymringer rundt styring og potensielle risikoer ved AI-agenter, sa Singh at Oracle
+                tilbyr modellhåndteringsfunksjoner som lar finansinstitusjoner demonstrere åpenhet og oppfylle
+                regulatoriske krav ved å vise hvordan modellene er forklarbare og styrt.</p>
+            <p>Oracle bruker også “compliance-agenter” – AI-drevne "onde aktører" – for å teste bankens finansielle
+                kontrollsystemer og avdekke sårbarheter. "De fungerer nærmest som etiske hackere for dine finansielle
+                kontroller," sa Singh.</p>
+            <p>Selv om AI-agentteknologi fortsatt er i en tidlig fase, forklarte Singh at Oracle bygger inn
+                observabilitet og overvåkingsfunksjoner i sine AI-løsninger for å sikre ansvarlig og effektiv bruk.</p>
+            <p>"Slike mekanismer må være innebygd, og vi implementerer dette der det er relevant," sa Singh. "Vi lærer
+                også underveis hvordan dette best kan gjøres. Oracle tilbyr teknologiske verktøy for å skape
+                observabilitet i disse applikasjonene, og vi utvikler kontinuerlig denne funksjonaliteten."</p>
+            <p>Singh påpekte at større finansinstitusjoner med strenge krav til datavern og suverenitet ofte velger å
+                implementere Oracles AI-løsninger i private skyer.</p>
+            <p>"Denne typen data har en stor innvirkning på omdømmet, og bankene er svært bekymret for at deres systemer
+                kan bli brukt til hvitvasking av penger. Derfor er det mye fokus på å holde miljøet strengt kontrollert.
+                Mange av dem vil automatisk velge å kjøre dette i sine egne datasentre."</p>
+            <p>"Ikke alle arbeidsoppgaver flyttes til skyen, selv i dag," la Singh til. Han bemerket imidlertid at store
+                finansinstitusjoner sannsynligvis gradvis vil ta i bruk offentlige skytjenester for AI-arbeidsmengder i
+                fremtiden.</p>
+            <p>I tillegg til Oracle har også SymphonyAI, et programvareselskap som utvikler AI-løsninger for spesifikke
+                bransjer og bruksområder, vært aktiv i kampen mot økonomisk kriminalitet. Selskapet har utviklet en
+                teknologiplattform som brukes av store finansinstitusjoner til å etterforske og håndtere
+                hvitvaskingssaker.</p>
+            <p>Mike Foster, tidligere administrerende direktør for SymphonyAIs spesialist på hvitvaskingsteknologi,
+                Sensa-NetReveal, fortalte Computer Weekly at selskapets styrke ikke bare ligger i plattformen, som har
+                over 20 års erfaring, men også i bransjeekspertisen og de prediktive AI-modellene som er utviklet
+                internt i SymphonyAI.</p>
+
+
+
+        </article>
+    </main>
+   
+
+    <script src="script.js"></script>
+</body>
+
+</html>
