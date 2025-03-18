@@ -156,3 +156,16 @@ figcaption {
     padding-right: 52px;
     margin-bottom: 83px;
 }
+
+h3 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+    max-width: 750px;
+    margin: 0 auto 20px;
+    line-height: 1.2;
+    margin-bottom: 0px;
+    ;
+}
