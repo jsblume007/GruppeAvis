@@ -1,2 +1,0 @@
-define(["common/js/lib/Serum.Pubsub","module"],function(t){"use strict";function e(t){return{id:t.getAttribute("data-experiment-analytics-id"),variant:t.getAttribute("data-experiment-variant")}}function i(){var t={};return function(e){return!t[e.id]&&(t[e.id]=!0,!0)}}function n(){return[].slice.call(document.querySelectorAll("[data-experiment-id]")).map(e).filter(i())}window.addEventListener("load",function(){var e=n();t.publish(t.topics.TRACK_EXPERIMENTS,{experiments:e})})});
-//# sourceMappingURL=Serum.ExperimentTracking.js.map
