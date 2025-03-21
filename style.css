@@ -18,10 +18,7 @@ img{
     --brodtekst: 'Lora', serif; /* Lettlest brødtekst */
   }
 body {
-    /* Vår navbar har position fixed. Da må vi ha litt 
-       margin på toppen for å ikke bli liggende "bak" den */
     margin-top: 65px;
-    
 }
 
 nav {
