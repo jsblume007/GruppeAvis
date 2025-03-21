@@ -172,3 +172,9 @@ h3 {
     margin-bottom: 0px;
     ;
 }
+
+audio {
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+}
