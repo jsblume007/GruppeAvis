@@ -192,6 +192,17 @@ audio {
     flex-direction: column;
 }
 
+.ad-sides{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+
+}
+
+#midt{
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
 .midtstiltBilde>img,
 video {
     max-width: 750px;
