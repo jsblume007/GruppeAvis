@@ -186,14 +186,6 @@ audio {
     max-width: 750px;
     margin: 0 auto 20px;
 }
-
-.liten{
-    align-items: center;
-    width: 50%;
-    margin: auto;
-    display: flex;
-
-}
 .midtstiltBilde {
     display: flex;
     align-items: center;
