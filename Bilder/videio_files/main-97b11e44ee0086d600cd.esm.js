@@ -1,0 +1,2 @@
+(()=>{var e={363:(e,t,r)=>{e.exports=r(282)},282:e=>{e.exports.getElementTag=function(e,t){return e+(t?`-v${t.split(".")[0]}`:"")}}},t={};function r(s){var n=t[s];if(void 0!==n)return n.exports;var o=t[s]={exports:{}};return e[s](o,o.exports,r),o.exports}(()=>{"use strict";const e=(0,r(363).getElementTag)("persongalleri","1.2.10");class t extends HTMLElement{constructor(...t){super(...t),this.name=e}}var s,n;s=e,n=t,void 0===customElements.get(s)&&customElements.define(s,n)})()})();
+//# sourceMappingURL=main-97b11e44ee0086d600cd.esm.js.map
