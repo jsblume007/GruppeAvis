@@ -174,6 +174,7 @@ figcaption {
     margin-left: 0;
     margin-right: 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -218,4 +219,62 @@ audio {
 .midtstiltBilde>img,
 video {
     max-width: 750px;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: light;
+    font-style: normal;
+}
+
+li::marker {
+    font-size: 0.8em;
+    padding-right: 2px;
+    left: 0;
+}
+
+.kortversjon {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #eef3f9;
+    max-width: 725px;
+    min-height: 300px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 8px;
+    line-height: 15px;
+    margin-bottom: 40px
+}
+
+
+h4 {
+    font-size: 20px;
+    line-height: 15px;
+    overflow-wrap: break-word;
+    font-weight: 600;
+    color: #000724;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    color: #333333;
+    padding-left: 40px;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    padding-left: 14px;
+}
+
+.grey-text {
+    padding-left: 40px;
+    margin-top: 25px;
+    color: #767676;
 }
