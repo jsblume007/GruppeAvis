@@ -172,3 +172,7 @@ audio {
     margin: auto;
     margin-bottom: 50px;
 }
+
+.liteBilde{
+    max-width: 30%;
+}
