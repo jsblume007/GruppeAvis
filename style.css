@@ -1,22 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-img{
+
+img {
     width: 100%;
 }
+
 :root {
-    --tekst: #1a1a1a; /* Mørk grå for tekst */
-    --overskrift: #b12121; /* Rød for aksenter, titler */
-    --lysBakgrunn: #f5f5f5; /* Lys bakgrunn */
-    --rammer: #ccc; /* Lys grå for linjer og rammer */
+    --tekst: #1a1a1a;
+    /* Mørk grå for tekst */
+    --overskrift: #b12121;
+    /* Rød for aksenter, titler */
+    --lysBakgrunn: #f5f5f5;
+    /* Lys bakgrunn */
+    --rammer: #ccc;
+    /* Lys grå for linjer og rammer */
     --nav: rgb(171, 95, 95);
     --article: antiquewhite;
-  
-    --avisfont: 'Merriweather', serif; /* Klassisk avisfont */
-    --brodtekst: 'Lora', serif; /* Lettlest brødtekst */
-  }
+
+    --avisfont: 'Merriweather', serif;
+    /* Klassisk avisfont */
+    --brodtekst: 'Lora', serif;
+    /* Lettlest brødtekst */
+}
+
 body {
     margin-top: 65px;
 }
@@ -29,7 +38,7 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
-    
+
 }
 
 nav a,
@@ -61,28 +70,38 @@ nav .dropbtn:hover {
     color: var(--nav);
 }
 
-.container{
+.container {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(12, 1fr);
     gap: 3px;
     max-width: 900px;
     margin: auto;
-    
-}
-article{
-    background-color: var(--article);
-    grid-column: span 3;
-    min-height: 150px;
-    font-family: var(--brodtekst);
-}
-article.stor{
-    grid-column: span 6;
-}
-article.xstor{
-    grid-column: span 12;
+
 }
 
-.cyber-container{
+article {
+    background-color: var(--article);
+    
+    min-height: 200px;
+    font-family: var(--brodtekst);
+}
+
+article.liten{
+    grid-column: span 3;
+}
+article.medium{
+    grid-column:span 6;
+}
+article.stor {
+    grid-column: span 9;
+}
+
+article.xstor {
+    grid-column: span 12;
+    height: 600px;
+}
+
+.cyber-container {
     display: grid;
     grid-template-columns: 3fr;
 }
@@ -132,7 +151,8 @@ article.news-text {
     background-color: white;
 }
 
-article::first-letter{
+article::first-letter,
+.news-text::first-letter {
     font-size: 3em;
     font-size: bold;
     color: var(--brødtekst);
@@ -141,11 +161,12 @@ article::first-letter{
     line-height: 1;
 }
 
+
 hr {
-    border: 0; 
-    height: 2px; 
-    background-color: #ccc; 
-    margin: 20px 0; 
+    border: 0;
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
 }
 
 figcaption {
@@ -153,6 +174,7 @@ figcaption {
     margin-left: 0;
     margin-right: 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -174,10 +196,11 @@ audio {
     margin-bottom: 50px;
 }
 
-.liteBilde{
+.liteBilde {
     max-width: 30%;
 }
-.news-text li{
+
+.news-text li {
     font-family: var(--brødtekst);
     font-size: 20px;
     line-height: 1.8;
@@ -186,6 +209,7 @@ audio {
     max-width: 750px;
     margin: 0 auto 20px;
 }
+
 .midtstiltBilde {
     display: flex;
     align-items: center;
@@ -195,4 +219,62 @@ audio {
 .midtstiltBilde>img,
 video {
     max-width: 750px;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: light;
+    font-style: normal;
+}
+
+li::marker {
+    font-size: 0.8em;
+    padding-right: 2px;
+    left: 0;
+}
+
+.kortversjon {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #eef3f9;
+    max-width: 725px;
+    min-height: 300px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 8px;
+    line-height: 15px;
+    margin-bottom: 40px
+}
+
+
+h4 {
+    font-size: 20px;
+    line-height: 15px;
+    overflow-wrap: break-word;
+    font-weight: 600;
+    color: #000724;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    color: #333333;
+    padding-left: 40px;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    padding-left: 14px;
+}
+
+.grey-text {
+    padding-left: 40px;
+    margin-top: 25px;
+    color: #767676;
 }
