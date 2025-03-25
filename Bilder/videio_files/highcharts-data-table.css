@@ -1,0 +1,44 @@
+/* Fix regression in accessibility 9.2.0 */
+div.highcharts-a11y-proxy-group-legend > ul > li {
+  list-style: none;
+}
+
+.highcharts-data-table {
+  margin-top: 12px;
+  border: 1px solid #e8e8e8;
+  background-color: white;
+  font-family: "Gordita";
+  font-weight: regular;
+}
+
+.highcharts-data-table table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.highcharts-data-table table caption {
+  padding: 8px 5px;
+}
+
+.highcharts-data-table table tbody tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+.highcharts-data-table table th:first-child, 
+.highcharts-data-table table td:first-child {
+  padding-left: 5px;
+}
+
+.highcharts-data-table table th, 
+.highcharts-data-table table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1;
+  font-size: 14px;
+}
+
+.highcharts-data-table table thead tr th.highcharts-text {
+  border-bottom: 1px solid dimgrey;
+  cursor: pointer;
+}
