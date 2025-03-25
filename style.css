@@ -92,6 +92,7 @@ article.xstor{
     margin: auto;
     max-width: 750px;
     text-align: center;
+    margin-top: 60px;
     margin-bottom: 48px;
 }
 
@@ -156,13 +157,13 @@ figcaption {
 
 h3 {
     font-family: 'Georgia', serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 400;
     color: black;
     text-align: left;
     max-width: 750px;
     margin: 0 auto 20px;
-    line-height: 1.2;
+    line-height: 1.8;
     margin-bottom: 0px;
     ;
 }
@@ -172,7 +173,26 @@ audio {
     margin: auto;
     margin-bottom: 50px;
 }
+<<<<<<< HEAD
 
 .liteBilde{
     max-width: 30%;
+=======
+.news-text li{
+    font-family: var(--brødtekst);
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: left;
+    color: #333;
+    max-width: 750px;
+    margin: 0 auto 20px;
+}
+
+.liten{
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    display: flex;
+
+>>>>>>> 9e5951e2e4639e8dbfc7e8b10ae4a6da0ff60a59
 }
