@@ -173,11 +173,10 @@ audio {
     margin: auto;
     margin-bottom: 50px;
 }
-<<<<<<< HEAD
 
 .liteBilde{
     max-width: 30%;
-=======
+}
 .news-text li{
     font-family: var(--brødtekst);
     font-size: 20px;
@@ -194,5 +193,14 @@ audio {
     margin: auto;
     display: flex;
 
->>>>>>> 9e5951e2e4639e8dbfc7e8b10ae4a6da0ff60a59
+}
+.midtstiltBilde {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.midtstiltBilde>img,
+video {
+    max-width: 750px;
 }
