@@ -78,7 +78,16 @@ nav .dropbtn:hover {
     margin: auto;
 
 }
+article h1{
+    font-size: 50px;
+}
 
+article h2{
+font-size: 30px;
+}
+.container a{
+    text-decoration: none;
+    color: var(--tekst);}
 article {
     background-color: var(--article);
     
@@ -98,7 +107,6 @@ article.stor {
 
 article.xstor {
     grid-column: span 12;
-    height: 600px;
 }
 
 .cyber-container {
@@ -214,6 +222,17 @@ audio {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.ad-sides{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+
+}
+
+#midt{
+    grid-column: 2/3;
+    grid-row: 1/4;
 }
 
 .midtstiltBilde>img,
