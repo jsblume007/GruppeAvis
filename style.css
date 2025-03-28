@@ -329,10 +329,12 @@ li {
 .container article h1 {
     margin-top: 20px;
     font-size: 40px;
+    font-family: var(--brodtekst);
 }
 .container article h2 {
     margin-top: 15px;
     font-size: 25px;
+    font-family: var(--avisfont);
 }
 
 article img {
