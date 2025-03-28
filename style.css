@@ -209,9 +209,6 @@ audio {
 .liteBilde {
     max-width: 40%;
 }
-.liteBilde > video{
-    max-width: 20%;
-}
 
 .news-text li {
     font-family: var(--brødtekst);
