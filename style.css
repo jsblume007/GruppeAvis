@@ -323,3 +323,18 @@ li {
     width: 90px;
     height: 60px;
 }
+.container article {
+    text-align: center;
+}
+.container article h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+.container article h2 {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+article img {
+    height: 70%;
+}
