@@ -157,10 +157,6 @@ article.xstor {
     margin: 0 auto 20px;
 }
 
-article.news-text {
-    background-color: white;
-}
-
 article::first-letter,
 .news-text::first-letter {
     font-size: 3em;
@@ -171,6 +167,9 @@ article::first-letter,
     line-height: 1;
 }
 
+.news-text{
+    background-color: var(--lysBakgrunn);
+}
 
 hr {
     border: 0;
