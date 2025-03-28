@@ -51,8 +51,7 @@ nav .dropbtn {
 }
 
 nav a:hover {
-    background-color: #ffffff;
-    color: rgb(171, 95, 95);
+    background-color: var(--article);
 }
 
 .dropdown-content {
@@ -63,8 +62,7 @@ nav a:hover {
 }
 
 nav .dropbtn:hover {
-    background-color: #ffffff;
-    color: var(--nav);
+    background-color: var(--article);
 }
 
 .container {
@@ -85,10 +83,14 @@ font-size: 30px;
 .container a{
     text-decoration: none;
     color: var(--tekst);}
+
 article {
     background-color: var(--article);
     min-height: 200px;
     font-family: var(--brodtekst);
+   
+}
+.container article{
     border: var(--tekst) 1px solid;
 }
 
