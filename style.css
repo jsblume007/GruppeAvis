@@ -97,6 +97,10 @@ article {
 
 .liten{
     grid-column: span 3;
+    
+}
+.liten img{
+    margin: 20px 0px 20px 0px;
 }
 .mellomliten{
     grid-column: span 4;
